@@ -1,0 +1,32 @@
+.container-fluid {
+  background-color: #00A890;
+}
+#logo_head {
+  margin-top: 8px;
+  text-align: center;
+}
+.jumbotron {
+  margin-top: 400px;
+}
+.jumbotron, .row {
+  background-color: inherit;
+  color: #FCFCFC;
+}
+.jumbotron p.lead {
+  font-size: 40px;
+}
+.jumbotron .lead a.btn-outline {
+  border: 1px solid #FCFCFC;
+  color: inherit;
+}
+.features {
+  background-color: #fff;
+  color: #00A890;
+}
+.feature {
+  text-align: center;
+  font-weight: 200;
+}
+.features p {
+  color: #5f6a7d;
+}
