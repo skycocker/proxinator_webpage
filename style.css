@@ -5,8 +5,9 @@
   margin-top: 8px;
   text-align: center;
 }
-.jumbotron {
-  margin-top: 400px;
+#youtube_video {
+  margin-top: 20px;
+  text-align: center;
 }
 .jumbotron, .row {
   background-color: inherit;
@@ -18,6 +19,11 @@
 .jumbotron .lead a.btn-outline {
   border: 1px solid #FCFCFC;
   color: inherit;
+}
+.btn a {
+  text-decoration: none;
+  color: inherit;
+  outline: inherit;
 }
 .features {
   background-color: #fff;
