@@ -30,3 +30,23 @@
 .features p {
   color: #5f6a7d;
 }
+.footer {
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  text-transform: lowercase;
+  word-spacing: -0.1em;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer .footer-a {
+  word-spacing: -0.3em;
+}
+.footer .first {
+  opacity: 0.7;
+}
+#footer .second {
+  opacity: 0.9;
+}
