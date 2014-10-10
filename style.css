@@ -36,9 +36,17 @@
 .features p {
   color: #5f6a7d;
 }
-.footer {
+.help {
   text-align: center;
-  color: #fff;
+  margin-bottom: 10px;
+}
+.help a {
+  color: #BCF7FF;
+}
+.footer {
+  background-color: #fff;
+  text-align: center;
+  color: #00A890;
   font-size: 1em;
   text-transform: lowercase;
   word-spacing: -0.1em;
@@ -51,7 +59,7 @@
   word-spacing: -0.3em;
 }
 .footer .first {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 #footer .second {
   opacity: 0.9;
