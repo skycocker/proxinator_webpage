@@ -48,6 +48,15 @@
   border: 1px solid #FCFCFC;
   color: inherit;
 }
+p.lead-walkaway, p.lead-walkaway-last {
+  font-size: 25px;
+}
+p.lead-walkaway {
+  margin: 0;
+}
+p.lead-walkaway-last {
+  margin-top: 15px;
+}
 .btn a {
   text-decoration: none;
   color: inherit;
