@@ -80,10 +80,21 @@ p.lead-walkaway-last {
 .help a {
   color: #BCF7FF;
 }
-.footer {
+.compatibility {
   background-color: #fff;
-  text-align: center;
   color: #00A890;
+}
+.compatibility h1 {
+  font-weight: normal;
+}
+.lead-compatibility {
+  margin: 0;
+}
+.lead-compatibility-border {
+  border-top: 1px solid #00A890;
+}
+.footer {
+  text-align: center;
   font-size: 1em;
   text-transform: lowercase;
   word-spacing: -0.1em;
