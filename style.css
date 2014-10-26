@@ -57,6 +57,18 @@ p.lead-walkaway {
 p.lead-walkaway-last {
   margin-top: 15px;
 }
+p.downloads {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.descriptions {
+  margin-bottom: 0;
+}
+@media (max-width: 488px) {
+  #mac_download {
+    margin-bottom: 10px;
+  }
+}
 .btn a {
   text-decoration: none;
   color: inherit;
