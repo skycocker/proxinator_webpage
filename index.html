@@ -32,6 +32,13 @@
         <div id="logo_head">
           <img src="logo_head.png" height="30px">
         </div>
+        <div id="twitter" class="pull-right">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Stop thinking about your password" data-hashtags="proxinator">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <div id="facebook" class="pull-right">
+          <div id="fb" class="fb-like" data-href="http://proxinator.me/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        </div>
       </div>
       <div id="video_container_wrapper">
         <div class="video_container">
@@ -103,5 +110,16 @@
       </div>
     </div>
     <script type="text/javascript" src="yt_embed.js"></script>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&appId=377463792337692&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk')
+        );
+      </script>
   </body>
 </html>

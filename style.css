@@ -5,9 +5,15 @@
   margin-top: 8px;
   text-align: center;
 }
+#twitter {
+  margin-top: -25px;
+}
+#facebook {
+  margin-right: 30px;
+}
 #video_container_wrapper {
   width: 70%;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
 }
 .video_container {
   position: relative;
